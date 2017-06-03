@@ -1,0 +1,10 @@
+1.sqlite
+Version:3.19.0
+https://www.sqlite.org/releaselog/3_19_0.html
+download:
+https://www.sqlite.org/2017/sqlite-amalgamation-3190000.zip
+
+2.CppSQLite3
+Version:
+download:
+https://github.com/NeoSmart/CppSQLite

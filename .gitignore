@@ -27,6 +27,14 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
+/example/OfflineDataStorgeTest/*.sdf
+ipch
+*.db3
+/example/OfflineDataStorgeTest/Debug/*.db3
+/example/OfflineDataStorgeTest/Debug/*.ilk
+/example/OfflineDataStorgeTest/Debug/*.pdb
+/example/OfflineDataStorgeTest/OfflineDataStorgeTest/Debug
+/example/OfflineDataStorgeTest/OfflineDataStorgeTest/ReadMe.txt
+/example/OfflineDataStorgeTest/Debug/Log

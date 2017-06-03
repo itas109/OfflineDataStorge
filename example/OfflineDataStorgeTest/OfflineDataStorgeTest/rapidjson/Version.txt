@@ -1,0 +1,5 @@
+rapidjson
+Version:1.1.0
+http://rapidjson.org/zh-cn/
+download:
+https://codeload.github.com/miloyip/rapidjson/zip/v1.1.0

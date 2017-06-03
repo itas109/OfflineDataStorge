@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="OfflineDataStorge">
+      <UniqueIdentifier>{dc44efeb-1853-4216-a218-7f840ca015f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite">
+      <UniqueIdentifier>{09678abe-f5da-4926-9183-6c1bf6fdad17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{dad2bddb-f98d-4d83-84e2-b272770f6f3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OfflineDataStorgeTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OfflineDataStorgeTestDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OfflineDataStorge.h">
+      <Filter>OfflineDataStorge</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite\CppSQLite3.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite\sqlite3.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLite\sqlite3ext.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="log\CLog4CPP.h">
+      <Filter>log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OfflineDataStorgeTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OfflineDataStorgeTestDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OfflineDataStorge.cpp">
+      <Filter>OfflineDataStorge</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite\CppSQLite3.cpp">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite\shell.c">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLite\sqlite3.c">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="log\CLog4CPP.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OfflineDataStorgeTest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OfflineDataStorgeTest.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\OfflineDataStorgeTest.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
